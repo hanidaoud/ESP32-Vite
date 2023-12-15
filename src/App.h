@@ -19,3 +19,9 @@ namespace WebServer {
 }
 
 #endif // !__WEB_SERVER__
+
+#ifndef __VERBOSE__
+#define __VERBOSE__
+#define VERBOSE_STATE false
+
+#endif // !__VERBOSE__
