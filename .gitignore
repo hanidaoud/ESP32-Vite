@@ -1,0 +1,28 @@
+.mypy_cache
+data
+
+# Logs
+src-web/logs
+src-web/*.log
+src-web/npm-debug.log*
+src-web/yarn-debug.log*
+src-web/yarn-error.log*
+src-web/pnpm-debug.log*
+src-web/lerna-debug.log*
+
+src-web/node_modules
+src-web/dist
+src-web/dist-ssr
+src-web/*.local
+
+# Editor directories and files
+src-web/.vscode/*
+src-web/!.vscode/extensions.json
+src-web/.idea
+src-web/.DS_Store
+src-web/*.suo
+src-web/*.ntvs*
+src-web/*.njsproj
+src-web/*.sln
+src-web/*.sw?
+
